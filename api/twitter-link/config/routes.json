@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/twitter-link",
+      "handler": "twitter-link.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/twitter-link",
+      "handler": "twitter-link.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/twitter-link",
+      "handler": "twitter-link.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

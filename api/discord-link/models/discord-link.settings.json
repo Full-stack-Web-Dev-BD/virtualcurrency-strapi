@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "discord_links",
+  "info": {
+    "name": "discordLink"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    }
+  }
+}

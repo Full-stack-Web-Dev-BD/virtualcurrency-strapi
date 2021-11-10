@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "telegram_links",
+  "info": {
+    "name": "telegramLink"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    }
+  }
+}

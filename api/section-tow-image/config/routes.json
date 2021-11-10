@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/section-tow-image",
+      "handler": "section-tow-image.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/section-tow-image",
+      "handler": "section-tow-image.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/section-tow-image",
+      "handler": "section-tow-image.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/telegram-link",
+      "handler": "telegram-link.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/telegram-link",
+      "handler": "telegram-link.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/telegram-link",
+      "handler": "telegram-link.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

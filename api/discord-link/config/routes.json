@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/discord-link",
+      "handler": "discord-link.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/discord-link",
+      "handler": "discord-link.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/discord-link",
+      "handler": "discord-link.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

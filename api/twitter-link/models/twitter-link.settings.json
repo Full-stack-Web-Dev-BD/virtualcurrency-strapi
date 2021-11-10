@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "twitter_links",
+  "info": {
+    "name": "twitterLink",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    }
+  }
+}
